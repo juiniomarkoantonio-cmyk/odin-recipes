@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#navigation-bar {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+.header.btn {
+    display: inline-block;
+    margin-left: 700px;
+}
+.link-btn {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding:10px;
+    margin-left:10px;
+}
