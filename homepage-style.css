@@ -8,8 +8,9 @@ body {
     display: flex;
 }
 h1 {
-    margin-left: 30px;
+    margin-left: 30px; 
     padding-top: 20px;
+    flex-grow: 1;
     vertical-align: top;
 }
 #chef-logo-header{
@@ -20,13 +21,11 @@ h1 {
 }
 nav {
     font-size: 25px;
-    padding-top: 20px;
-    vertical-align: top;
 }
-
+ul{
+   padding-top:20px ;
+}
 .link-btn {
     display: inline-flex;
-    padding:10px;
-    margin-left:10px;
-    justify-content: flex-end  ;
+    padding-right:10px;
 }
