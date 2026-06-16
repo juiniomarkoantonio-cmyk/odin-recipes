@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eff1f3;
+}
+.navigation-bar{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+.navigation-bar h1,
+.navigation-bar nav{
+    display: inline-block;
+    padding: 20px;
+}
+.navigation-bar li{
+    display: inline-block;
+}
+
+.navigation-bar nav {
+    font-size: 25px;
+}
+#homepage-lasagna{
+    margin-left: 1700px
+}
+#homepage-steak{
+    margin-left: 1150px;
+}
+#homepage-halo{
+    margin-left: 1500px;
+}
+
+/* Description-wrapping */
+#Description-Halo-halo {
+    display: inline-block;
+    width: 800px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    font-size: 60px;
+    text-align: justify;
+    vertical-align: top;
+}
+#lasagna-description{
+    display: inline-block;
+    font-size: 50px;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: 60px;
+}
+#steak-description{
+    display: inline-block;
+    font-size: 50px;
+    text-align: justify;
+    vertical-align: top;
+    padding-top: 100px;
+    width: 1000px;
+}
+#steak-image{
+    padding: 50px;
+    display: inline-block;
+    padding-left:70px ;
+}
+#halo-halo-img{
+    padding: 50px;
+    display: inline-block;
+    padding-left: 70px;
+}
+
+#image-lasagna{
+    padding: 50px;
+    display: inline-block;
+    padding-left: 70px;
+}
+/* Sections-Descriptions & Ingredients */
+.ingredients {
+    padding-left:70px ;
+}
+.ingredients ul{
+    font-size: 20px;
+    width: 1600px;
+}
+.ingredients li{
+    padding-bottom: 10px;
+}
+.directions {
+    padding-left:70px ;
+}
+.directions ol{
+    font-size: 20px;
+    width: 1600px;
+    text-align: left;
+}
+.directions li{
+    padding-bottom: 10px;
+}
