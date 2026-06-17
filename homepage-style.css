@@ -19,7 +19,8 @@ h1 {
     border-radius: 20px;
     border-style: solid;
 }
-nav {
+nav {   
+    flex:initial;
     font-size: 25px;
 }
 ul{
