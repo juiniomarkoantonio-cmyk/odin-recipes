@@ -1,18 +1,17 @@
 body {
     margin: 0;
+    background-color:#ffd000;
 }
 #navigation-bar {
     background-color: black;
     padding: 20px;
     color: white;
     display: flex;
+    align-items: center;
+    gap:20px;
+    flex-wrap: wrap;
 }
-h1 {
-    margin-left: 30px; 
-    padding-top: 20px;
-    flex-grow: 1;
-    vertical-align: top;
-}
+
 #chef-logo-header{
     width: 100px;
     height: 100px;
@@ -20,13 +19,26 @@ h1 {
     border-style: solid;
 }
 nav {   
-    flex:initial;
     font-size: 25px;
+    min-width: 0;
+    margin-left: auto;
 }
 ul{
-   padding-top:20px ;
+   display:flex;
+   gap:20px;
+   flex-wrap: wrap;
+   li{
+    list-style-type: none;
+   }
+   a{
+    text-decoration: none;
+    color: white;
+   }
 }
-.link-btn {
-    display: inline-flex;
-    padding-right:10px;
+.odin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    margin-top: 100px;
 }
